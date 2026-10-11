@@ -7,8 +7,7 @@ Bit 5 is ON*/
 #include<stdio.h>
 int main(){
 	unsigned char user;
-	unsigned char i;
-	i = 1;
+	unsigned char i = 1;
 	while (i != 0){
 		printf ("Enter a integer(0-255)\n");
 		scanf ("%d", &user);
