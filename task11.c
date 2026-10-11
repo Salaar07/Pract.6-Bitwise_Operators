@@ -19,7 +19,7 @@ int main(){
 	scanf ("%d", &user);
 	bit4 = user & 8;
 	bit5 = user & 16;
-	printf ("%d  %d\n", bit4,bit5);
+	//printf ("%d  %d\n", bit4,bit5);
 	if (bit4 == 8){
 		if (bit5 == 16)	 printf ("Both bits are ON");
 		else 			 printf ("First is Off and Second is ON");
