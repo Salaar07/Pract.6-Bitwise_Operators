@@ -6,8 +6,19 @@ Position: 1
 Sample Output 1:
 X after setting bit 1: 21*/
 #include<stdio.h>
+#include<math.h>
 int main(){
-	printf ("");
-	scanf ("%", &);
+	unsigned char x;
+	int  p, mask;
+	printf ("Enter X:");
+	scanf ("%d", &x);
+	printf ("Bit Position P:");
+	scanf ("%d", &p);
+	//p =  (pow(2,p)); oops it was wrong but id like to keep it interesting
+	mask  = 1 << (p-1);
+	printf ("%d\n", p);
+	//printf("Before OR: x = %u, p = %u, mask = %u\n", x, p, mask);
+	x = x | mask;
+	printf ("X after pth bit On: %d", x);
 	return 0;	
 }
