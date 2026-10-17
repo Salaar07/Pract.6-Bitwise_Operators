@@ -19,7 +19,7 @@ int main(){
 	//printf ("Mask: %d\n", mask);
 	//printf ("Mask: %d\n", mask);
 	x = x ^ mask;
-	printf ("X after after first toggle of bit %d:	 %d\n",p, x);
+	printf ("X after after first toggle of bit %d:  %d\n",p, x);
 	x = x ^ mask;
 	printf ("X after second toggle of bit %d:	 %d\n",p, x);
 	return 0;	
